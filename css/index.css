@@ -1,10 +1,11 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Inter';
 }
-body{
-    background: linear-gradient(311deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
-}
+
 .nave-bar{
     display: flex;
     justify-content: space-evenly;
@@ -47,3 +48,187 @@ body{
 .nave-bar-conteudo div{
     padding-left:5%;
 }
+
+.aboutus{
+    background-color: white;
+    height: 100vh;
+
+}
+.aboutus .tudo{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.aboutus .tudo .Textoaboutus{
+    /* width: 43vh; */
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 15px;
+    padding-left: 135px;
+}
+
+.aboutus .tudo .Textoaboutus .titulo{
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 36px;
+    color: #0A093D;
+    line-height: 48px;
+
+}
+
+
+.aboutus .tudo .containerimg{
+    width: 80vw;
+    padding-top: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-right: 134px;
+    gap: 23px;
+    
+}
+
+
+.aboutus .tudo .container .imagenssmall{ 
+    height: 20vw;
+    display: grid;
+    gap: 20px;
+   
+}
+
+.aboutus .tudo .container .imagembig{
+    padding: auto;
+    margin-right: 30vh;
+}
+
+ol{
+    list-style-type:disc;
+    list-style-position: inside;
+    color: #171648;
+    
+}
+
+.aboutus .container .imagembig {
+    padding: auto;
+}
+
+.membros {
+
+    width: 100%;
+
+}
+
+.membros .container {
+    height: 100vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.membros .container .textocima {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.membros .container .textocima .azul-valuable {
+    color: #217BF4;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.membros .container .textocima .our-active {
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 36px;
+    color: #0A093D;
+
+}
+
+.membros .container .textocima .texto {
+    color: #656464;
+    width: 30vw;
+    text-align: center;
+
+}
+
+.membros .container .textocima .box-buttons {
+    background-color: #F2F7FF;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    border-radius: 14px;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.membros .container .textocima .box-buttons>a {
+    color: #2F2C4A;
+    opacity: 0.8;
+    padding: 20px 40px 20px 40px;
+    text-decoration: none;
+}
+
+.membros .container .textocima .box-buttons>a.active {
+    background-color: #217BF4;
+    border-radius: 14px;
+    color: #FfFfFF;
+    box-shadow: 0px 7px 22px -6px rgba(0, 72, 168, 0.34);
+}
+
+.membros .container .team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+.membros .container .team .card-homem {
+    border-radius: 14px;
+    width: 270px;
+    height: 316px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.membros .container .team .card-homem .dude{
+    height: 166px;
+    width: 166px;
+}
+
+.membros .container .team .destaque {
+    box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
+
+}
+
+.membros .container .team .card-homem .texto-homens {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.membros .container .team .card-homem .nome-homem {
+    color: #2F2C4A;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.membros .container .team .card-homem .arroba-homem {
+    color: #656464;
+}
+
+
+
+
