@@ -1,32 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Inter';
 }
 
-.aboutus {
-    background-color: rgb(255, 0, 0);
+.aboutus{
+    background-color: white;
     height: 100vh;
 
 }
+.aboutus .tudo{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
 
-.aboutus .containerimg {
+.aboutus .tudo .Textoaboutus{
+    /* width: 43vh; */
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 15px;
+    padding-left: 135px;
+}
+
+.aboutus .tudo .Textoaboutus .titulo{
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 36px;
+    color: #0A093D;
+    line-height: 48px;
+
+}
+
+
+.aboutus .tudo .containerimg{
     width: 80vw;
     padding-top: 20vh;
     display: flex;
+    align-items: center;
     flex-direction: row-reverse;
-    align-items: end;
-    row-gap: 20px;
+    padding-right: 134px;
+    gap: 23px;
+    
 }
 
-.aboutus .container .imagenssmall {
+
+.aboutus .tudo .container .imagenssmall{ 
     height: 20vw;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    gap: 20px;
+   
 }
 
+.aboutus .tudo .container .imagembig{
+    padding: auto;
+    margin-right: 30vh;
+}
+
+ol{
+    list-style-type:disc;
+    list-style-position: inside;
+    color: #171648;
+    
+}
 
 .aboutus .container .imagembig {
     padding: auto;
@@ -145,3 +186,7 @@
 .membros .container .team .card-homem .arroba-homem {
     color: #656464;
 }
+
+
+
+
