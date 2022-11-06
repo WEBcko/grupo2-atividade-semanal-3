@@ -6,6 +6,16 @@
     font-family: 'Inter';
 }
 
+.container {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.ocupa-janela{
+    height: 100vh;
+}
+
+/* HEADER/NAV  */
 .nave-bar{
     display: flex;
     justify-content: space-evenly;
@@ -59,6 +69,7 @@
     width: 500px;
 }
 
+/* ABOUT US */
 .aboutus{
     background-color: white;
     height: 100vh;
@@ -89,7 +100,6 @@
 
 }
 
-
 .aboutus .tudo .containerimg{
     width: 80vw;
     padding-top: 20vh;
@@ -100,7 +110,6 @@
     gap: 23px;
     
 }
-
 
 .aboutus .tudo .container .imagenssmall{ 
     height: 20vw;
@@ -114,7 +123,7 @@
     margin-right: 30vh;
 }
 
-ol{
+ol{ 
     list-style-type:disc;
     list-style-position: inside;
     color: #171648;
@@ -125,16 +134,12 @@ ol{
     padding: auto;
 }
 
+
+/* MEMBROS */
 .membros {
 
     width: 100%;
 
-}
-
-.membros .container {
-    height: 100vh;
-    padding-left: 10vw;
-    padding-right: 10vw;
 }
 
 .membros .container .textocima {
