@@ -47,6 +47,16 @@
 
 .nave-bar-conteudo div{
     padding-left:5%;
+} 
+
+.home-img{
+    display: flex;
+    margin-right: 350px;
+    flex-direction: row-reverse;
+}
+
+.home-img img{
+    width: 500px;
 }
 
 .aboutus{
