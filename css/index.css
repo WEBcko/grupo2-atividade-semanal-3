@@ -10,7 +10,6 @@
     padding-left: 10vw;
     padding-right: 10vw;
 }
-
 .ocupa-janela{
     height: 100vh;
 }
@@ -61,12 +60,80 @@
 
 .home-img{
     display: flex;
-    margin-right: 350px;
-    flex-direction: row-reverse;
+    justify-content: space-around;
 }
 
+
 .home-img img{
-    width: 500px;
+    width: 585.52px;
+    height: 501.47px;
+}
+
+.home-conteudo-community{
+    margin-top: 58px;
+    width: 177px;
+    height: 36px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #217BF4;
+    border-radius: 8px;
+    
+}
+
+.home-conteudo-tudo{
+    padding-top: 7%;
+}
+
+.home-conteudo-botoes{
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+.home-conteudo-texto{
+    padding-top:9%;
+}
+
+.home-conteudo-texto-extra-1{
+    font-size: xxx-large;
+    padding-bottom: 10px;
+}
+
+.home-conteudo-aboutmore{
+    margin-top: 58px;
+    width: 162px;
+    height: 62px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #217BF4;
+    border-radius: 14px;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+}
+
+.home-conteudo-invitefriend{
+    margin-top: 58px;
+    width: 162px;
+    height: 62px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #217BF4;
+    border-radius: 14px;
+}
+
+.home-conteudo-community div{
+    opacity:1;
+}
+
+.home-conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
 }
 
 /* ABOUT US */
@@ -243,7 +310,80 @@ ol{
 .membros .container .team .card-homem .arroba-homem {
     color: #656464;
 }
+ 
+/* Latest News */
 
+.latest-news {
+
+    width: 100%;
+
+}
+
+.latest-news .container .textocima {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.latest-news .container .textocima .azul-valuable {
+    color: #217BF4;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.latest-news .container .textocima .our-active {
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 36px;
+    color: #0A093D;
+
+}
+.latest-news .container .fotos-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.latest-news .container .fotos-container .bloco-fotos{
+
+    width: 30%; 
+}
+
+.latest-news .container .fotos-container .bloco-fotos .img-news{
+    width: 100%;
+}
+
+.latest-news .container .fotos-container .bloco-fotos .traco-foto-texto{
+    width: 90%;
+    padding-left: 5%;
+    line-height: 25px;
+    color: #2F2C4A;
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.latest-news .container .fotos-container .bloco-fotos .traco-foto-texto .traco{
+
+    margin-right: 20px;
+    color: #FFAF2E;
+    font-size: 40px;
+    margin-top: -13px; 
+    
+}
+
+.latest-news .container .fotos-container .bloco-fotos .texto-foto .texto-baixo{
+    color: #656464;
+    font-size: 16px;
+    margin-top: 20px;
+}
 
 
 
