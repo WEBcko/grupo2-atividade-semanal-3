@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
 
 * {
     margin: 0;
@@ -11,12 +11,12 @@
     padding-right: 10vw;
 }
 
-.ocupa-janela{
+.ocupa-janela {
     height: 100vh;
 }
 
 /* HEADER/NAV  */
-.nave-bar{
+.nave-bar {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -24,7 +24,7 @@
     border-bottom: 1px solid black;
 }
 
-.nave-bar-conteudo{
+.nave-bar-conteudo {
     height: 10vh;
     width: 80vw;
     display: flex;
@@ -33,16 +33,16 @@
     align-items: center;
 }
 
-.nav-botao-login{
-    text-align-last:center;
-    height:10vh;
-    width:20%;
+.nav-botao-login {
+    text-align-last: center;
+    height: 10vh;
+    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.nav-botao-login button{
+.nav-botao-login button {
     width: 123px;
     height: 50px;
     left: 100px;
@@ -50,37 +50,38 @@
     background: #217BF4;
     box-shadow: 0px 7px 22px -6px rgb(33 123 244 / 34%);
     border-radius: 14px;
-    color:white;
-    border:none;
-    
+    color: white;
+    border: none;
+
 }
 
-.nave-bar-conteudo div{
-    padding-left:5%;
+.nave-bar-conteudo div {
+    padding-left: 5%;
 }
 
 /* ABOUT US */
-.aboutus{
+.aboutus {
     background-color: white;
     height: 100vh;
 
 }
-.aboutus .tudo{
+
+.aboutus .tudo {
     display: flex;
     align-items: center;
     gap: 100px;
 }
 
-.aboutus .tudo .Textoaboutus{
+.aboutus .tudo .Textoaboutus {
     /* width: 43vh; */
-    display:flex;
+    display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items: flex-start;
     gap: 15px;
     padding-left: 135px;
 }
 
-.aboutus .tudo .Textoaboutus .titulo{
+.aboutus .tudo .Textoaboutus .titulo {
     font-weight: 700;
     font-size: 36px;
     margin-bottom: 20px;
@@ -90,7 +91,7 @@
 
 }
 
-.aboutus .tudo .containerimg{
+.aboutus .tudo .containerimg {
     width: 80vw;
     padding-top: 20vh;
     display: flex;
@@ -98,26 +99,26 @@
     flex-direction: row-reverse;
     padding-right: 134px;
     gap: 23px;
-    
+
 }
 
-.aboutus .tudo .container .imagenssmall{ 
+.aboutus .tudo .container .imagenssmall {
     height: 20vw;
     display: grid;
     gap: 20px;
-   
+
 }
 
-.aboutus .tudo .container .imagembig{
+.aboutus .tudo .container .imagembig {
     padding: auto;
     margin-right: 30vh;
 }
 
-ol{ 
-    list-style-type:disc;
+ol {
+    list-style-type: disc;
     list-style-position: inside;
     color: #171648;
-    
+
 }
 
 .aboutus .container .imagembig {
@@ -206,7 +207,7 @@ ol{
 
 }
 
-.membros .container .team .card-homem .dude{
+.membros .container .team .card-homem .dude {
     height: 166px;
     width: 166px;
 }
@@ -235,5 +236,89 @@ ol{
 }
 
 
+footer {
+    height: 50vh;
+    color: #E7E7E7;
+    font-weight: 100;
+    font-size: 10px;
+    line-height: 46px;
+}
 
+footer .based {
+    background-color: #2B2B39;
+    height: 100%;
+}
 
+footer .above {
+    display: flex;
+    align-items: center;
+    height: 80%;
+    
+}
+
+footer .above .colunas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65%;
+    
+}
+
+footer .above .colunas {
+    padding: 20px; 
+}
+
+footer .above  .title {
+    color: #FfFfFF;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+footer .above .colunas .meme {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .above .subscribe {
+    width: 35%;
+}
+
+footer .above .subscribe .form .email {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer .above .subscribe .form .button-sub {
+    padding: 10px;
+    color: #2B2B39;
+    border-radius: 10px;
+    margin-left: -20px;
+    border: 2px solid white;
+}
+
+footer .rodape {
+    background-color: #20202D;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+footer .rodape .alinha-rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer .rodape .redes img {
+    vertical-align: middle;
+}
+
+footer .rodape .redes img {
+    padding: 2px;
+}
