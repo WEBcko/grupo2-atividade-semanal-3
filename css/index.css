@@ -15,7 +15,7 @@
     height: 100vh;
 }
 
-/* HEADER/NAV  */
+/* ==========================================================================HEADER/NAV  ==============================================================================*/
 .nave-bar{
     display: flex;
     justify-content: space-evenly;
@@ -59,16 +59,16 @@
     padding-left:5%;
 }
 
-/* ABOUT US */
+/* ========================================================================================ABOUT US======================================================================= */
 .aboutus{
     background-color: white;
     height: 100vh;
 
 }
+
 .aboutus .tudo{
     display: flex;
-    align-items: center;
-    gap: 100px;
+    align-items: center; 
 }
 
 .aboutus .tudo .Textoaboutus{
@@ -77,7 +77,12 @@
     flex-direction: column;
     align-items:flex-start;
     gap: 15px;
-    padding-left: 135px;
+}
+
+.aboutus .tudo .Textoaboutus .textoazul{
+    color: #217BF4;
+    font-weight: 500;
+
 }
 
 .aboutus .tudo .Textoaboutus .titulo{
@@ -96,7 +101,6 @@
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
-    padding-right: 134px;
     gap: 23px;
     
 }
@@ -125,10 +129,10 @@ ol{
 }
 
 
-/* MEMBROS */
+/* ======================================================================MEMBROS =================================================================================*/
 .membros {
-
     width: 100%;
+
 
 }
 
@@ -235,5 +239,213 @@ ol{
 }
 
 
+/* ================================================================TELA COMUNIDADE ============================================================================== */
+.comunity{
+    background-image: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%); ;
+    width: 100%;
+    
+}
 
+.comunity p{
 
+    font-size: 14px;
+}
+
+.comunity .containercomunity{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.comunity .containercomunity .titulocomunity{
+    
+        color: #217BF4;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 18px;
+}
+.comunity .containercomunity .comunitybold{
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 36px;
+    color: #0A093D;
+}
+
+.comunity .containercomunity .textocomunity{
+    color: #656464;
+    width: 40vw;
+    text-align: center;
+}
+/*====================================================================================================================*/
+.comunity .retangulos{
+   display: flex;
+   flex-direction: row;
+   /* width: 60%; */
+   margin-top: 50px;
+    
+}
+.retanguloesquerda{
+    display: flex;
+   flex-direction: column;
+   gap: 35px;
+   /* justify-content: center; */
+   padding-right: 40px;
+}
+.comunity .retangulofriend {
+    width: 500px;
+    height: 182px;
+    /* left: 176px;
+    top: 262px; */
+    background: #FFFFFF;
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+    border-radius: 14px;
+    display: flex;
+    
+}
+.comunity .retangulofriend .Friendsimg{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+.comunity .retangulofriend .Friendstext{
+    /* margin-top: 10%; */
+    display: flex;
+    width: 60%;
+    height: 500px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* padding-right: 50px; */
+    padding-top: 50px;
+}
+.comunity .retanguloforum {
+    /* margin: 20px; */
+        width: 500px;
+       height: 182px;
+       /* left: 176px;
+       top: 262px; */
+       background: #FFFFFF;
+       box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+       border-radius: 14px;
+       display: flex;
+
+   }
+.comunity .retanguloforum .forumimg{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+.comunity .retanguloforum .forumtext{
+    margin-top: 10%;
+    display: flex;
+    width: 60%;
+    height: 500px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.comunity .retangulolist {
+    /* margin: 20px; */
+    width: 500px;
+    height: 182px;
+    left: 176px;
+    top: 262px;
+    background: #FFFFFF;
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+    border-radius: 14px;
+    display: flex;
+}
+.comunity .retangulolist .listimg{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+.comunity .retangulolist .listtext{
+    margin-top: 10%;
+    display: flex;
+    width: 60%;
+    height: 500px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/*==============================================================================================================*/
+.comunity .retangulodireita{
+    gap: 35px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.comunity .retangulogroups {
+    /* margin: 20px; */
+    width: 500px;
+    height: 182px;
+    left: 176px;
+    top: 262px;
+    background: #FFFFFF;
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+    border-radius: 14px;
+    display: flex;
+}
+.comunity .retangulogroups .groupsimg{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+.comunity .retangulogroups .groupstext{
+    margin-top: 10%;
+    display: flex;
+    width: 60%;
+    height: 500px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.comunity .retangulocustom{
+    /* margin: 20px; */
+    width: 500px;
+    height: 182px;
+    left: 176px;
+    top: 262px;
+    background: #FFFFFF;
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+    border-radius: 14px;
+    display: flex;
+}
+.comunity .retangulocustom .customimg{
+
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+.comunity .retangulocustom .customtext{
+    margin-top: 10%;
+    display: flex;
+    width: 60%;
+    height: 500px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.comunity .retanguloscroll{
+    /* margin: 20px; */
+    width: 500px;
+    height: 182px;
+    left: 176px;
+    top: 262px;
+    background: #FFFFFF;
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+    border-radius: 14px;
+    display: flex;
+}
+.comunity .retanguloscroll .scrollimg{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+.comunity .retanguloscroll .scrolltext{
+    margin-top: 10%;
+    display: flex;
+    width: 60%;
+    height: 500px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
