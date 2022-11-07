@@ -155,6 +155,7 @@
     align-items:flex-start;
     gap: 15px;
     padding-left: 135px;
+    /* margin-right: 190px; */
 }
 
 .aboutus .tudo .Textoaboutus .titulo{
@@ -204,9 +205,7 @@ ol{
 
 /* MEMBROS */
 .membros {
-
     width: 100%;
-
 }
 
 .membros .container .textocima {
@@ -310,7 +309,69 @@ ol{
 .membros .container .team .card-homem .arroba-homem {
     color: #656464;
 }
- 
+ /* PUBLICIDADE */
+
+ .publi{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-color: #E5F0FD;
+    display: flex;
+    justify-content: space-between;
+}
+
+.publi-img img{
+    width: 639px;
+}
+
+.publi-conteudo{
+    display: flex;
+    /* flex-direction: row-reverse; */
+}
+
+.publi-conteudo-textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.publi-conteudo-textos1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #217BF4;
+}
+
+.publi-conteudo-textos2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+    color: #0A093D;
+}
+
+.publi-conteudo-textos3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #656464;
+}
+.publi-conteudo-textos div{
+    padding-bottom: 15px;
+}
+
+.publi-conteudo-textos-botoes{
+    display: flex;
+    align-items: center;
+}
+
+.apple-pic{
+    padding-right: 20px;
+} 
+
 /* Latest News */
 
 .latest-news {
